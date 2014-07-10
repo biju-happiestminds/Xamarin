@@ -1,0 +1,1 @@
+http://10.20.26.149/Xamarin/get_user_detail.php
