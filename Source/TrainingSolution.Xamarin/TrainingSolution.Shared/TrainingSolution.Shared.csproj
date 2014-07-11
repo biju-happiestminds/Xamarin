@@ -40,9 +40,13 @@
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="Mono.Android" />
+    <Reference Include="System.Data" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Resources\Resource.designer.cs" />
+    <Compile Include="Core\Domain\Models\Product.cs" />
+    <Compile Include="Core\Domain.Services\ProductService.cs" />
+    <Compile Include="Core\Domain.Services.Interfaces\IProductServices.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -51,4 +55,12 @@
     <AndroidResource Include="Resources\values\Strings.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
+  <ItemGroup>
+    <Folder Include="Core\" />
+    <Folder Include="Core\Domain\" />
+    <Folder Include="Core\Domain\Models\" />
+    <Folder Include="Core\Domain\Interfaces\" />
+    <Folder Include="Core\Domain.Services\" />
+    <Folder Include="Core\Domain.Services.Interfaces\" />
+  </ItemGroup>
 </Project>

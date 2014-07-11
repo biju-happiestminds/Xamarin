@@ -6,6 +6,8 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
+using TrainingSolution.Shared;
+using System.Collections.Generic;
 
 namespace TrainingSolution.Droid
 {
@@ -19,6 +21,9 @@ namespace TrainingSolution.Droid
 
 			// Set our view from the "main" layout resource
 			SetContentView (Resource.Layout.Main);
+
+
+		
 
 			// Get our button from the layout resource,
 			// and attach an event to it

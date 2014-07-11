@@ -10,4 +10,11 @@
         android:layout_height="wrap_content"
         android:text="Use Cases Under process."
         android:textColor="#000000" />
+    <Button
+        android:id="@+id/myButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Move to Product list"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp" />
 </LinearLayout>
