@@ -1,0 +1,11 @@
+C:\Users\sakthivel.murugesan\Documents\TrainingSolution.Xamarin\TrainingSolution.Shared\bin\Debug\TrainingSolution.Shared.dll
+C:\Users\sakthivel.murugesan\Documents\TrainingSolution.Xamarin\TrainingSolution.Shared\bin\Debug\TrainingSolution.Shared.pdb
+C:\Users\sakthivel.murugesan\Documents\TrainingSolution.Xamarin\TrainingSolution.Shared\bin\Debug\TrainingSolution.Shared.dll.mdb
+C:\Users\sakthivel.murugesan\Documents\TrainingSolution.Xamarin\TrainingSolution.Shared\bin\Debug\TrainingSolution.Shared.apk
+C:\Users\sakthivel.murugesan\Documents\TrainingSolution.Xamarin\TrainingSolution.Shared\bin\Debug\TrainingSolution.Shared-Signed.apk
+C:\Users\sakthivel.murugesan\Documents\TrainingSolution.Xamarin\TrainingSolution.Shared\obj\Debug\TrainingSolution.Shared.dll
+C:\Users\sakthivel.murugesan\Documents\TrainingSolution.Xamarin\TrainingSolution.Shared\obj\Debug\TrainingSolution.Shared.pdb
+C:\Users\sakthivel.murugesan\Documents\TrainingSolution.Xamarin\TrainingSolution.Shared\obj\Debug\android\bin\TrainingSolution.Shared.apk
+C:\Users\sakthivel.murugesan\Documents\TrainingSolution.Xamarin\TrainingSolution.Shared\obj\Debug\res\values\strings.xml
+C:\Users\sakthivel.murugesan\Documents\TrainingSolution.Xamarin\TrainingSolution.Shared\obj\Debug\R.cs.flag
+C:\Users\sakthivel.murugesan\Documents\TrainingSolution.Xamarin\TrainingSolution.Shared\obj\Debug\uploadflags.txt

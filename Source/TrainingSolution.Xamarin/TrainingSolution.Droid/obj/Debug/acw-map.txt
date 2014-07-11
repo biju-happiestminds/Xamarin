@@ -1,0 +1,2 @@
+TrainingSolution.Droid.MainActivity;trainingsolution.droid.MainActivity
+TrainingSolution.Droid.HomeActivity;trainingsolution.droid.HomeActivity

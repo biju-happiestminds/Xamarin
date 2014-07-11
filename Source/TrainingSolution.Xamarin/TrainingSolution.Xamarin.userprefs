@@ -1,0 +1,12 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.4df14336681c6f55" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="TrainingSolution.Droid\MainActivity.cs">
+    <Files>
+      <File FileName="TrainingSolution.Droid\MainActivity.cs" Line="7" Column="22" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

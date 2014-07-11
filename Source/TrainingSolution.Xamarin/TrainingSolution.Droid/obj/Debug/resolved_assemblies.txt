@@ -1,0 +1,2 @@
+C:\Users\sakthivel.murugesan\Documents\TrainingSolution.Xamarin\TrainingSolution.Droid\bin\Debug\TrainingSolution.Droid.dll
+C:\Users\sakthivel.murugesan\Documents\TrainingSolution.Xamarin\TrainingSolution.Shared\bin\Debug\TrainingSolution.Shared.dll
