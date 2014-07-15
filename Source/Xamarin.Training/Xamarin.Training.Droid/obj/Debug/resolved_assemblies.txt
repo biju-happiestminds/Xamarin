@@ -1,0 +1,3 @@
+D:\Xamarin.Training\Xamarin.Training.Droid\bin\Debug\Xamarin.Training.Droid.dll
+D:\Barcode\Barcode scanning\ZXing.Net.Mobile-master\ZXing.Net.Mobile-master\Build\Debug\monodroid\zxing.monoandroid.dll
+D:\Barcode\Barcode scanning\ZXing.Net.Mobile-master\ZXing.Net.Mobile-master\Build\Debug\monodroid\ZXing.Net.Mobile.dll
