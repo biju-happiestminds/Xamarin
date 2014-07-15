@@ -7,6 +7,7 @@ namespace Training.shared.Core.Domain.Services.Interfaces
 	public interface IProductService
 	{
 		List<Product> getproduct();
+		List<Product> GetProductsById(int prodId);
 	}
 }
 

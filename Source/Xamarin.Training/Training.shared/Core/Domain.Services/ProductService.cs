@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using Training.shared.Core.Domain.Models;
 using Training.shared.Core.Domain.Services.Interfaces;
 
@@ -45,12 +46,16 @@ namespace Training.shared.Core.Domain.Services
 				product.Stock = 500;
 				product.Price = 100;
 				products.Add (product);
-
 			}
 			//Console.WriteLine (products);
 			return products;
 		}
 
+		public List<Product> GetProductsById(int prodId)
+		{
+			var prods = getproduct();
+			return prods.Any() ? prods.Where(item => item.Id.Equals(prodId)).ToList() : null;
+		}
 	}
 }
 

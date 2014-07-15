@@ -5,9 +5,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.Training.Droid", "X
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Training.shared", "Training.shared\Training.shared.shproj", "{D0D7D3F4-FDAB-492A-9A11-55374F61C42D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zxing.monoandroid", "..\Barcode\Barcode scanning\ZXing.Net.Mobile-master\ZXing.Net.Mobile-master\src\ZXing.Net\zxing.monoandroid.csproj", "{8971B59D-78F1-49BA-808D-CBADB37F571F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zxing.monoandroid", "..\Barcode scanning\ZXing.Net.Mobile-master\ZXing.Net.Mobile-master\src\ZXing.Net\zxing.monoandroid.csproj", "{8971B59D-78F1-49BA-808D-CBADB37F571F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZXing.Net.Mobile.Android", "..\Barcode\Barcode scanning\ZXing.Net.Mobile-master\ZXing.Net.Mobile-master\src\ZXing.Net.Mobile\ZXing.Net.Mobile.Android.csproj", "{AC17589E-C817-4FA8-B3EC-CCEB25E55E59}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZXing.Net.Mobile.Android", "..\Barcode scanning\ZXing.Net.Mobile-master\ZXing.Net.Mobile-master\src\ZXing.Net.Mobile\ZXing.Net.Mobile.Android.csproj", "{AC17589E-C817-4FA8-B3EC-CCEB25E55E59}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
