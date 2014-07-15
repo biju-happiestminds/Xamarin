@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<resources>
-	<string name="hello">Hello World, Click Me!</string>
-	<string name="app_name">TrainingSolution.Droid</string>
-	<string name="button">Skip/Login</string>
-	<string name="dialog_title">Are you sure Want to Exit?</string>
-	<string name="yes">Yes</string>
-  	<string name="no">No</string>
-</resources>
