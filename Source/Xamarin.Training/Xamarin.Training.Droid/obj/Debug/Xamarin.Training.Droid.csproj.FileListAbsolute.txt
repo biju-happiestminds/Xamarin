@@ -41,10 +41,10 @@ D:\Xamarin_Git\Source\Xamarin.Training\Xamarin.Training.Droid\bin\Debug\Xamarin.
 D:\Xamarin_Git\Source\Xamarin.Training\Xamarin.Training.Droid\bin\Debug\Xamarin.Training.Droid.dll.mdb
 D:\Xamarin_Git\Source\Xamarin.Training\Xamarin.Training.Droid\bin\Debug\Xamarin.Training.Droid.apk
 D:\Xamarin_Git\Source\Xamarin.Training\Xamarin.Training.Droid\bin\Debug\Xamarin.Training.Droid-Signed.apk
+D:\Xamarin_Git\Source\Xamarin.Training\Xamarin.Training.Droid\bin\Debug\Xamarin.Android.Support.v4.dll
 D:\Xamarin_Git\Source\Xamarin.Training\Xamarin.Training.Droid\bin\Debug\zxing.monoandroid.dll
 D:\Xamarin_Git\Source\Xamarin.Training\Xamarin.Training.Droid\bin\Debug\ZXing.Net.Mobile.dll
-D:\Xamarin_Git\Source\Xamarin.Training\Xamarin.Training.Droid\bin\Debug\zxing.monoandroid.pdb
-D:\Xamarin_Git\Source\Xamarin.Training\Xamarin.Training.Droid\bin\Debug\zxing.monoandroid.dll.mdb
+D:\Xamarin_Git\Source\Xamarin.Training\Xamarin.Training.Droid\bin\Debug\zxing.monoandroid.xml
 D:\Xamarin_Git\Source\Xamarin.Training\Xamarin.Training.Droid\obj\Debug\Xamarin.Training.Droid.dll
 D:\Xamarin_Git\Source\Xamarin.Training\Xamarin.Training.Droid\obj\Debug\Xamarin.Training.Droid.pdb
 D:\Xamarin_Git\Source\Xamarin.Training\Xamarin.Training.Droid\obj\Debug\android\bin\Xamarin.Training.Droid.apk
