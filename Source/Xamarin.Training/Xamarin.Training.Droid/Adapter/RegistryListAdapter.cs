@@ -22,13 +22,17 @@ namespace Xamarin.Training.Droid
 			TextView tvRetailerName;
 		}*/
 
-		public RegistryListAdapter (Activity context) : base() {
+		readonly Activity _context;
 
+		String[] productNames = {"Bat", "Ball", "Shoes"};
+		
+		public RegistryListAdapter (Activity context) : base() {
+			_context = context;
 		}
 
 
 		public override int Count {
-			get { return 0; }
+		get { return productNames.Length; }
 		}
 
 		public override Java.Lang.Object GetItem(int position) {
@@ -40,7 +44,37 @@ namespace Xamarin.Training.Droid
 		}
 
 		public override View GetView(int position, View convertView, ViewGroup parent) {
-			return null;
+			View view = convertView;
+
+			if (view == null) { // no view to re-use, create new
+				view = _context.LayoutInflater.Inflate (Resource.Layout.RegistryListItemLayout, null);
+			}
+
+			view.FindViewById<TextView>(Resource.Id.productName).Text = productNames[position];
+			var addToWish = view.FindViewById<Button> (Resource.Id.addToWishlist);
+			addToWish.Tag = (int)position;
+			addToWish.Click += addToWishList;
+			
+			return view;
+		}
+
+		void addToWishList(Object sender, EventArgs e) {
+			var but = sender as Button;
+			int t = (int)but.Tag;
+			String selectedItem = productNames [t];
+			Boolean found = false;
+			foreach(String item in RegistryManagementActivity.sWishList) {
+				if (item.Equals (selectedItem)) {
+						found = true;
+				}
+			}
+			
+			if (found == false) {
+				RegistryManagementActivity.sWishList.Add (selectedItem);
+				Android.Widget.Toast.MakeText (_context, selectedItem + " is added to Wish list", Android.Widget.ToastLength.Short).Show ();	
+			} else {
+				Android.Widget.Toast.MakeText (_context, "This item is already added to Wish list", Android.Widget.ToastLength.Short).Show ();	
+			}
 		}
 	}
 }

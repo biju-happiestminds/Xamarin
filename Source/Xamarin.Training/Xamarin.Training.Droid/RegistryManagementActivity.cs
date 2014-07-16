@@ -20,6 +20,8 @@ namespace Xamarin.Training.Droid
 	[Activity (Label = "RegistryManagementActivity")]	
 	public class RegistryManagementActivity  : Activity
 	{
+		public static List<String> sWishList = new List<String>();
+
 		protected override void OnCreate (Bundle bundle)
 		{
 			base.OnCreate (bundle);
