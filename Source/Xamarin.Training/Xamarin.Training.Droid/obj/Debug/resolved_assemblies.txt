@@ -1,3 +1,4 @@
-D:\Xamarin.Training\Xamarin.Training.Droid\bin\Debug\Xamarin.Training.Droid.dll
-D:\Barcode\Barcode scanning\ZXing.Net.Mobile-master\ZXing.Net.Mobile-master\Build\Debug\monodroid\zxing.monoandroid.dll
-D:\Barcode\Barcode scanning\ZXing.Net.Mobile-master\ZXing.Net.Mobile-master\Build\Debug\monodroid\ZXing.Net.Mobile.dll
+D:\Xamarin_Git\Source\Xamarin.Training\Xamarin.Training.Droid\bin\Debug\Xamarin.Training.Droid.dll
+D:\Xamarin_Git\Source\Barcode scanning\zxing.net.mobile-1.4.4\zxing.net.mobile-1.4.4\lib\android\Xamarin.Android.Support.v4.dll
+D:\Xamarin_Git\Source\Barcode scanning\zxing.net.mobile-1.4.4\zxing.net.mobile-1.4.4\lib\android\zxing.monoandroid.dll
+D:\Xamarin_Git\Source\Barcode scanning\zxing.net.mobile-1.4.4\zxing.net.mobile-1.4.4\lib\android\ZXing.Net.Mobile.dll

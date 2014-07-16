@@ -1,6 +1,13 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.MonoForAndroid_API_10" />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.avd_icecream" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Xamarin.Training.Droid\HomeActivity.cs">
+    <Files>
+      <File FileName="Xamarin.Training.Droid\ProductListByScanActivity.cs" Line="64" Column="39" />
+      <File FileName="Training.shared\Core\Domain.Services\ProductService.cs" Line="52" Column="4" />
+      <File FileName="Training.shared\Core\Domain.Services.Interfaces\IProductService.cs" Line="10" Column="41" />
+      <File FileName="Xamarin.Training.Droid\HomeActivity.cs" Line="11" Column="22" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

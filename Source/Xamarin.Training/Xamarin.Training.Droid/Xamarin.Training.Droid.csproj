@@ -41,9 +41,17 @@
     <Reference Include="System" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
-    <Reference Include="Mono.Android" />
-    <Reference Include="Mono.Android.Support.v4" />
     <Reference Include="System.Xml.Linq" />
+    <Reference Include="zxing.monoandroid">
+      <HintPath>..\..\Barcode scanning\zxing.net.mobile-1.4.4\zxing.net.mobile-1.4.4\lib\android\zxing.monoandroid.dll</HintPath>
+    </Reference>
+    <Reference Include="ZXing.Net.Mobile">
+      <HintPath>..\..\Barcode scanning\zxing.net.mobile-1.4.4\zxing.net.mobile-1.4.4\lib\android\ZXing.Net.Mobile.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Android.Support.v4">
+      <HintPath>..\..\Barcode scanning\zxing.net.mobile-1.4.4\zxing.net.mobile-1.4.4\lib\android\Xamarin.Android.Support.v4.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Android" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainActivity.cs" />
@@ -75,15 +83,5 @@
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
   <ItemGroup>
     <Folder Include="Adapter\" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\Barcode\Barcode scanning\ZXing.Net.Mobile-master\ZXing.Net.Mobile-master\src\ZXing.Net\zxing.monoandroid.csproj">
-      <Project>{8971B59D-78F1-49BA-808D-CBADB37F571F}</Project>
-      <Name>zxing.monoandroid</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\Barcode\Barcode scanning\ZXing.Net.Mobile-master\ZXing.Net.Mobile-master\src\ZXing.Net.Mobile\ZXing.Net.Mobile.Android.csproj">
-      <Project>{AC17589E-C817-4FA8-B3EC-CCEB25E55E59}</Project>
-      <Name>ZXing.Net.Mobile.Android</Name>
-    </ProjectReference>
   </ItemGroup>
 </Project>
