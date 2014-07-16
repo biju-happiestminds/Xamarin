@@ -63,6 +63,19 @@ namespace Xamarin.Training.Droid
 
 				HandleScanResult(result);
 			};
+
+			// For registry managment
+			Button button = FindViewById<Button> (Resource.Id.btnRegMgmt);
+
+			button.Click += delegate {
+
+				//This is place to navigate one screen other screen by firing intent.//
+
+				var homeActivity = new Intent(this, typeof(RegistryManagementActivity));
+				StartActivity(homeActivity);
+
+				//Toast.MakeText(this, "Navigated to Home Screen", ToastLength.Short).Show(); 
+			};
 		}
 
 
