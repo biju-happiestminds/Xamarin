@@ -52,6 +52,9 @@
       <HintPath>..\..\Barcode scanning\zxing.net.mobile-1.4.4\zxing.net.mobile-1.4.4\lib\android\Xamarin.Android.Support.v4.dll</HintPath>
     </Reference>
     <Reference Include="Mono.Android" />
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\Components\json.net-4.5.11\lib\android\Newtonsoft.Json.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainActivity.cs" />
@@ -61,11 +64,14 @@
     <Compile Include="ProductListActivity.cs" />
     <Compile Include="ProductListByScanActivity.cs" />
     <Compile Include="Adapter\ProductListAdapter.cs" />
+    <Compile Include="Adapter\RegistryListAdapter.cs" />
+    <Compile Include="RegistryManagementActivity.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />
     <None Include="Properties\AndroidManifest.xml" />
+    <None Include="Xamarin.Training.Droid.csproj" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\Main.axml" />
@@ -78,10 +84,18 @@
     <AndroidResource Include="Resources\layout\ZxingOverlay.axml" />
     <AndroidResource Include="Resources\values\style.xml" />
     <AndroidResource Include="Resources\drawable\linlayoutborder.xml" />
+    <AndroidResource Include="Resources\layout\RegistryManagement.axml" />
+    <AndroidResource Include="Resources\layout\RegistryListItemLayout.axml" />
   </ItemGroup>
   <Import Project="..\Training.shared\Training.shared.projitems" Label="Shared" Condition="Exists('..\Training.shared\Training.shared.projitems')" />
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
   <ItemGroup>
     <Folder Include="Adapter\" />
+  </ItemGroup>
+  <ItemGroup>
+    <XamarinComponentReference Include="json.net">
+      <Version>4.5.11</Version>
+      <Visible>False</Visible>
+    </XamarinComponentReference>
   </ItemGroup>
 </Project>

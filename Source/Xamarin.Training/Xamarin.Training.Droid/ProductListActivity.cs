@@ -27,9 +27,9 @@ namespace Xamarin.Training.Droid
 
 			//ProductService productservice = new ProductService();
 			//products=productservice.GetProduct ();
-			List<Product> products = new List<Product> ();
+			List<Productlist> products = new List<Productlist> ();
 
-			products = ServiceWrapper.ProductService.getproduct ();
+			products = ServiceWrapper.ProductService.getproductlist ();
 			var listView = FindViewById<ListView> (Resource.Id.lvProdList);
 			listView.Adapter = new ProductListAdapter (this, products);
 
@@ -39,7 +39,7 @@ namespace Xamarin.Training.Droid
 			{
 				if (searchText.Text != "")
 				{
-					var matchingItems = products.Where(item => item.Name.ToLower().Contains(searchText.Text.ToLower())).ToList();
+					var matchingItems = products.Where(item => item.ProdName.ToLower().StartsWith(searchText.Text.ToLower())).ToList();
 					listView.Adapter = new ProductListAdapter(this, matchingItems);
 				}
 				else

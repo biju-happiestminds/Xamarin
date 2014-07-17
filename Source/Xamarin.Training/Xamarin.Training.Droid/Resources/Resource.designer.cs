@@ -69,35 +69,47 @@ namespace Xamarin.Training.Droid
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f06000c
-			public const int button1 = 2131099660;
-			
-			// aapt resource value: 0x7f060012
-			public const int buttonZxingFlash = 2131099666;
-			
-			// aapt resource value: 0x7f060013
-			public const int contentFrame = 2131099667;
-			
-			// aapt resource value: 0x7f06000a
-			public const int imgDollar = 2131099658;
-			
-			// aapt resource value: 0x7f060007
-			public const int imgvProduct = 2131099655;
-			
-			// aapt resource value: 0x7f06000d
-			public const int linearLayout1 = 2131099661;
-			
-			// aapt resource value: 0x7f060010
-			public const int linearLayout2 = 2131099664;
-			
-			// aapt resource value: 0x7f060006
-			public const int lvProdList = 2131099654;
+			// aapt resource value: 0x7f06000f
+			public const int addToWishlist = 2131099663;
 			
 			// aapt resource value: 0x7f060003
-			public const int myButton = 2131099651;
+			public const int btnRegMgmt = 2131099651;
+			
+			// aapt resource value: 0x7f06000d
+			public const int button1 = 2131099661;
+			
+			// aapt resource value: 0x7f060016
+			public const int buttonZxingFlash = 2131099670;
+			
+			// aapt resource value: 0x7f060017
+			public const int contentFrame = 2131099671;
+			
+			// aapt resource value: 0x7f06000b
+			public const int imgDollar = 2131099659;
+			
+			// aapt resource value: 0x7f060008
+			public const int imgvProduct = 2131099656;
+			
+			// aapt resource value: 0x7f060011
+			public const int linearLayout1 = 2131099665;
+			
+			// aapt resource value: 0x7f060014
+			public const int linearLayout2 = 2131099668;
+			
+			// aapt resource value: 0x7f060007
+			public const int lvProdList = 2131099655;
+			
+			// aapt resource value: 0x7f060004
+			public const int myButton = 2131099652;
 			
 			// aapt resource value: 0x7f060000
 			public const int myTxt = 2131099648;
+			
+			// aapt resource value: 0x7f060010
+			public const int productList = 2131099664;
+			
+			// aapt resource value: 0x7f06000e
+			public const int productName = 2131099662;
 			
 			// aapt resource value: 0x7f060002
 			public const int scanBtn = 2131099650;
@@ -105,29 +117,29 @@ namespace Xamarin.Training.Droid
 			// aapt resource value: 0x7f060001
 			public const int searchBtn = 2131099649;
 			
-			// aapt resource value: 0x7f06000e
-			public const int textView1 = 2131099662;
+			// aapt resource value: 0x7f060012
+			public const int textView1 = 2131099666;
 			
-			// aapt resource value: 0x7f06000f
-			public const int textView2 = 2131099663;
+			// aapt resource value: 0x7f060013
+			public const int textView2 = 2131099667;
 			
-			// aapt resource value: 0x7f060011
-			public const int textView3 = 2131099665;
-			
-			// aapt resource value: 0x7f060004
-			public const int tr = 2131099652;
-			
-			// aapt resource value: 0x7f060008
-			public const int txtProdName = 2131099656;
-			
-			// aapt resource value: 0x7f06000b
-			public const int txtProdPrice = 2131099659;
-			
-			// aapt resource value: 0x7f060009
-			public const int txtProdQty = 2131099657;
+			// aapt resource value: 0x7f060015
+			public const int textView3 = 2131099669;
 			
 			// aapt resource value: 0x7f060005
-			public const int txtProdSearch = 2131099653;
+			public const int tr = 2131099653;
+			
+			// aapt resource value: 0x7f060009
+			public const int txtProdName = 2131099657;
+			
+			// aapt resource value: 0x7f06000c
+			public const int txtProdPrice = 2131099660;
+			
+			// aapt resource value: 0x7f06000a
+			public const int txtProdQty = 2131099658;
+			
+			// aapt resource value: 0x7f060006
+			public const int txtProdSearch = 2131099654;
 			
 			static Id()
 			{
@@ -158,13 +170,19 @@ namespace Xamarin.Training.Droid
 			public const int ProductListScan = 2130903044;
 			
 			// aapt resource value: 0x7f030005
-			public const int ZxingOverlay = 2130903045;
+			public const int RegistryListItemLayout = 2130903045;
 			
 			// aapt resource value: 0x7f030006
-			public const int zxingscanneractivitylayout = 2130903046;
+			public const int RegistryManagement = 2130903046;
 			
 			// aapt resource value: 0x7f030007
-			public const int zxingscannerfragmentlayout = 2130903047;
+			public const int ZxingOverlay = 2130903047;
+			
+			// aapt resource value: 0x7f030008
+			public const int zxingscanneractivitylayout = 2130903048;
+			
+			// aapt resource value: 0x7f030009
+			public const int zxingscannerfragmentlayout = 2130903049;
 			
 			static Layout()
 			{

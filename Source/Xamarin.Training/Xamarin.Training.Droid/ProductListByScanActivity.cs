@@ -39,8 +39,8 @@ namespace Xamarin.Training.Droid
 			string msg = "Found Barcode: " + scanProductId;
 
 			//this.RunOnUiThread(() => Toast.MakeText(this, msg, ToastLength.Short).Show());
-			List<Product> products = new List<Product> ();
-			products = ServiceWrapper.ProductService.GetProductsById (Convert.ToInt32 (scanProductId)).ToList();
+			List<Productlist> products = new List<Productlist> ();
+			products = ServiceWrapper.ProductService.GetProductslistById (Convert.ToInt32 (scanProductId)).ToList();
 			_listView.Adapter = new ProductListAdapter(this, products);
 
 
@@ -64,8 +64,8 @@ namespace Xamarin.Training.Droid
 				var result = await scanner.Scan();
 				//var result = await scanner.Scan();
 				msg1 = result.Text;
-				List<Product> scanproducts = new List<Product> ();
-				scanproducts = ServiceWrapper.ProductService.GetProductsById (Convert.ToInt32 (msg1)).ToList();
+				List<Productlist> scanproducts = new List<Productlist> ();
+				scanproducts = ServiceWrapper.ProductService.GetProductslistById (Convert.ToInt32 (msg1)).ToList();
 				products = products.Concat(scanproducts).ToList();
 				_listView.Adapter = new ProductListAdapter(this, products);
 			};

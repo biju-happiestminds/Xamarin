@@ -13,12 +13,12 @@ using System.Linq;
 
 namespace Xamarin.Training.Droid.Adapters
 {
-	public class ProductListAdapter : BaseAdapter<Product>
+	public class ProductListAdapter : BaseAdapter<Productlist>
 	{
-		readonly List<Product> _items;
+		readonly List<Productlist> _items;
 		readonly Activity _context;
 
-		public ProductListAdapter(Activity context, List<Product> items)
+		public ProductListAdapter(Activity context, List<Productlist> items)
 			: base()
 		{
 			_context = context;
@@ -55,7 +55,7 @@ namespace Xamarin.Training.Droid.Adapters
 		private class ViewHolder : Java.Lang.Object
 		{
 			Activity context;
-			Product product;
+			Productlist product;
 			TextView name;
 			TextView qty;
 			TextView price;
@@ -74,11 +74,11 @@ namespace Xamarin.Training.Droid.Adapters
 
 			}
 
-			public void Bind(Activity myContext, Product item)
+			public void Bind(Activity myContext, Productlist item)
 			{
 				context = myContext;
 				product = item;
-				name.Text = item.Name;
+				name.Text = item.ProdName;
 				qty.Text = item.Stock.ToString();
 				//qnty = 0;
 				//qty.Text = "Stock : "+qnty.ToString();
@@ -143,9 +143,9 @@ namespace Xamarin.Training.Droid.Adapters
 
 		#endregion
 
-		#region Overrides of BaseAdapter<Product>
+		#region Overrides of BaseAdapter<Productlist>
 
-		public override Product this[int position]
+		public override Productlist this[int position]
 		{
 			get { return _items[position]; }
 		}

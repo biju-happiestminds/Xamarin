@@ -15,5 +15,18 @@ namespace Training.shared.Core.Domain.Models
 		public int Stock { get; set; }
 		public decimal Price { get; set; }
 	}
+
+	public class Productlist
+	    {
+		        public Productlist ()
+		        {
+			        }
+		        public int ID { get; set; }
+		        public string ProdName { get; set; }
+		        public string ProdDesc { get; set; }
+		        public string Image { get; set; }
+		        public int Stock { get; set; }
+		        public decimal Price { get; set; }
+		    }
 }
 

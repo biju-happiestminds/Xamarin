@@ -41,6 +41,7 @@ D:\Xamarin_Git\Source\Xamarin.Training\Xamarin.Training.Droid\bin\Debug\Xamarin.
 D:\Xamarin_Git\Source\Xamarin.Training\Xamarin.Training.Droid\bin\Debug\Xamarin.Training.Droid.dll.mdb
 D:\Xamarin_Git\Source\Xamarin.Training\Xamarin.Training.Droid\bin\Debug\Xamarin.Training.Droid.apk
 D:\Xamarin_Git\Source\Xamarin.Training\Xamarin.Training.Droid\bin\Debug\Xamarin.Training.Droid-Signed.apk
+D:\Xamarin_Git\Source\Xamarin.Training\Xamarin.Training.Droid\bin\Debug\Newtonsoft.Json.dll
 D:\Xamarin_Git\Source\Xamarin.Training\Xamarin.Training.Droid\bin\Debug\Xamarin.Android.Support.v4.dll
 D:\Xamarin_Git\Source\Xamarin.Training\Xamarin.Training.Droid\bin\Debug\zxing.monoandroid.dll
 D:\Xamarin_Git\Source\Xamarin.Training\Xamarin.Training.Droid\bin\Debug\ZXing.Net.Mobile.dll
@@ -58,5 +59,7 @@ D:\Xamarin_Git\Source\Xamarin.Training\Xamarin.Training.Droid\obj\Debug\res\layo
 D:\Xamarin_Git\Source\Xamarin.Training\Xamarin.Training.Droid\obj\Debug\res\layout\zxingoverlay.xml
 D:\Xamarin_Git\Source\Xamarin.Training\Xamarin.Training.Droid\obj\Debug\res\values\style.xml
 D:\Xamarin_Git\Source\Xamarin.Training\Xamarin.Training.Droid\obj\Debug\res\drawable\linlayoutborder.xml
+D:\Xamarin_Git\Source\Xamarin.Training\Xamarin.Training.Droid\obj\Debug\res\layout\registrymanagement.xml
+D:\Xamarin_Git\Source\Xamarin.Training\Xamarin.Training.Droid\obj\Debug\res\layout\registrylistitemlayout.xml
 D:\Xamarin_Git\Source\Xamarin.Training\Xamarin.Training.Droid\obj\Debug\R.cs.flag
 D:\Xamarin_Git\Source\Xamarin.Training\Xamarin.Training.Droid\obj\Debug\uploadflags.txt

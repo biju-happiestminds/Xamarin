@@ -67,6 +67,7 @@ public class MonoPackageManager {
 class MonoPackageManager_Resources {
 	public static final String[] Assemblies = new String[]{
 		"Xamarin.Training.Droid.dll",
+		"Newtonsoft.Json.dll",
 		"Xamarin.Android.Support.v4.dll",
 		"zxing.monoandroid.dll",
 		"ZXing.Net.Mobile.dll",
