@@ -66,6 +66,7 @@
     <Compile Include="Adapter\ProductListAdapter.cs" />
     <Compile Include="Adapter\RegistryListAdapter.cs" />
     <Compile Include="RegistryManagementActivity.cs" />
+    <Compile Include="Helpers\Images.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -91,6 +92,7 @@
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
   <ItemGroup>
     <Folder Include="Adapter\" />
+    <Folder Include="Helpers\" />
   </ItemGroup>
   <ItemGroup>
     <XamarinComponentReference Include="json.net">

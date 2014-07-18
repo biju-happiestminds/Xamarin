@@ -15,6 +15,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)ServiceWrapper.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)MyClass.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Core\Domain\Interfaces\IProductRepository.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Core\Domain.Services\FileCache.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="$(MSBuildThisFileDirectory)Core\" />

@@ -1,30 +1,21 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.avd_icecream" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Xamarin.Training.Droid\HomeActivity.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Training.shared\Core\Domain.Services\ProductService.cs">
     <Files>
-      <File FileName="Xamarin.Training.Droid\ProductListByScanActivity.cs" Line="1" Column="1" />
-      <File FileName="Training.shared\Core\Domain.Services\ProductService.cs" Line="1" Column="1" />
-      <File FileName="Training.shared\Core\Domain.Services.Interfaces\IProductService.cs" Line="1" Column="1" />
-      <File FileName="Xamarin.Training.Droid\HomeActivity.cs" Line="105" Column="3" />
-      <File FileName="Xamarin.Training.Droid\MainActivity.cs" Line="5" Column="23" />
+      <File FileName="Xamarin.Training.Droid\ProductListByScanActivity.cs" Line="39" Column="51" />
+      <File FileName="Training.shared\Core\Domain.Services\ProductService.cs" Line="97" Column="59" />
+      <File FileName="Xamarin.Training.Droid\ProductListActivity.cs" Line="35" Column="4" />
+      <File FileName="Training.shared\Core\Domain.Services.Interfaces\IProductService.cs" Line="13" Column="2" />
+      <File FileName="Training.shared\Core\Domain\Models\Product.cs" Line="17" Column="3" />
+      <File FileName="Xamarin.Training.Droid\Adapter\ProductListAdapter.cs" Line="87" Column="46" />
+      <File FileName="Xamarin.Training.Droid\Helpers\Images.cs" Line="33" Column="43" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State expanded="True">
-          <Option id="ShowAllFiles" value="True" />
-          <Node name="Xamarin.Training.Droid" expanded="True">
-            <Node name="References" expanded="True" />
-            <Node name="ComponentReferenceFolder" expanded="True" />
-            <Node name="Resources" expanded="True" />
-            <Node name="HomeActivity.cs" selected="True" />
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="Xamarin.Training.Droid\Helpers\Images.cs" line="55" offsetX="718" offsetY="864" expression="Training.shared.Core.Domain.Services.FileCache" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
   <MonoDevelop.Ide.ItemProperties.Xamarin.Training.Droid MonoForAntroid.PreferredDevice="3.7&quot; WVGA (Nexus One)" />
 </Properties>

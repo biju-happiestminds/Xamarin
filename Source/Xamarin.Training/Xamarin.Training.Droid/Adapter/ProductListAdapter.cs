@@ -10,6 +10,9 @@ using System.Net;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.IO;
+using System.Threading.Tasks;
+using Xamarin.Training.Droid.Helpers;
 
 namespace Xamarin.Training.Droid.Adapters
 {
@@ -46,6 +49,7 @@ namespace Xamarin.Training.Droid.Adapters
 				view.Tag = vh;
 			}
 			var item = _items[position];
+
 			vh = (ViewHolder)view.Tag;
 			vh.Bind(_context,item);
 
@@ -60,10 +64,8 @@ namespace Xamarin.Training.Droid.Adapters
 			TextView qty;
 			TextView price;
 			ImageView imageView;
-			//ImageView addToCart;
-			//TextView addText;
-			int qnty;
-//			ImageView removeFromCart;
+		
+			//WebClient webClient;
 
 			public void Initialize(View view)
 			{
@@ -76,65 +78,28 @@ namespace Xamarin.Training.Droid.Adapters
 
 			public void Bind(Activity myContext, Productlist item)
 			{
+
 				context = myContext;
 				product = item;
 				name.Text = item.ProdName;
 				qty.Text = item.Stock.ToString();
-				//qnty = 0;
-				//qty.Text = "Stock : "+qnty.ToString();
 				price.Text = item.Price.ToString();
-				imageView.SetImageResource (Resource.Drawable.Icon);
+				string ImageURL = item.Image.ToString ();
 
-				//var sdCardPath = "/mnt/sdcard/InStore_Images";
-				//var imageFilePath = System.IO.Path.Combine (sdCardPath, item.Picture);
-//				if (System.IO.File.Exists (imageFilePath)) {
-//					try {
-//						BitmapFactory.Options opts=new BitmapFactory.Options();
-//						opts.InDither=false;
-//						opts.InPurgeable=true;                   //Tell to gc that whether it needs free memory, the Bitmap can be cleared
-//						opts.InInputShareable=true;              //Which kind of reference will be used to recover the Bitmap data after being clear, when it will be used in the future
-//						opts.InTempStorage=new byte[32 * 1024]; 
-//						var imageFile = new Java.IO.File (imageFilePath);
-//						Bitmap bitmap = BitmapFactory.DecodeFile (imageFile.AbsolutePath, opts);
-//						imageView.SetImageBitmap (bitmap);
-//						bitmap.Dispose ();
-//					} catch (OutOfMemoryException ex) {
-//						//ex.StackTrace;
-//					}
-//				}
-//				else {
-//					imageView.SetImageResource (Resource.Drawable.Icon);
-//				}
+				imageView.SetImageResource (Resource.Drawable.Icon);
+				// LoadProductImage (imageView, ImageURL);
 			}
 
-
-
-//			void remove_Click(Object sender, EventArgs e)
-//			{
-//				List<Cart> cartList = ServiceWrapper.ProductService.GetCartItemsForUser(LoginInfo.User).ToList();
-//				if (cartList.Count > 0) {
-//					var t = (ImageView)sender;
-//					RemoveProductFromCart (product);
-//					Toast.MakeText (context, "Remove from cart", ToastLength.Short).Show ();
-//				} else {
-//					Toast.MakeText (context, "Cart is empty", ToastLength.Short).Show ();
-//				}
-//			}
-//
-//			private void RemoveProductFromCart(Product product)
-//			{
-//				var cart = new Cart()
-//				{
-//					ProductId = product.Id,
-//					Quantity = -1,
-//					UserId = LoginInfo.User.Id,
-//				};
-//
-//				ServiceWrapper.ProductService.SaveProductToCart(cart);
-//			}
+			async void LoadProductImage (ImageView imageView, string ImageURL)
+			{
+				//var currentId = mainView.Id;
+				//progressView.Visibility = ViewStates.Visible;
+				//imageView.SetImageResource (Android.Resource.Color.Transparent);
+				await Images.SetImageFromUrlAsync (imageView,ImageURL);
+				//progressView.Visibility = ViewStates.Invisible;
+			}
+				
 		}
-
-
 
 		public override int Count
 		{
