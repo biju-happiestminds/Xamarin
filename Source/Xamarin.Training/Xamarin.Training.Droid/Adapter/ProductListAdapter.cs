@@ -13,6 +13,7 @@ using System.Linq;
 using System.IO;
 using System.Threading.Tasks;
 using Xamarin.Training.Droid.Helpers;
+using System.Net.Http;
 
 namespace Xamarin.Training.Droid.Adapters
 {
@@ -73,7 +74,6 @@ namespace Xamarin.Training.Droid.Adapters
 				qty = view.FindViewById<TextView> (Resource.Id.txtProdQty);
 				price = view.FindViewById<TextView> (Resource.Id.txtProdPrice);
 				imageView = view.FindViewById<ImageView> (Resource.Id.imgvProduct);
-
 			}
 
 			public void Bind(Activity myContext, Productlist item)
@@ -84,11 +84,34 @@ namespace Xamarin.Training.Droid.Adapters
 				name.Text = item.ProdName;
 				qty.Text = item.Stock.ToString();
 				price.Text = item.Price.ToString();
-				string ImageURL = item.Image.ToString ();
 
-				imageView.SetImageResource (Resource.Drawable.Icon);
+				Task<int> sizeTask = DownloadHomepageAsync(item.Image,imageView);
+
+				//imageView.SetImageResource (Resource.Drawable.Icon);
 				// LoadProductImage (imageView, ImageURL);
 			}
+
+
+			public async Task<int> DownloadHomepageAsync(string ImageURL,ImageView imageViewdownload)
+			{
+				var httpClient = new HttpClient(); // Xamarin supports HttpClient!
+				byte[] imageBytes  = await httpClient.GetByteArrayAsync(ImageURL); // async method!
+
+				string documentsPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
+				string localFilename = "team.jpg";
+				string localPath = System.IO.Path.Combine (documentsPath, localFilename);
+				File.WriteAllBytes (localPath, imageBytes); // writes to local storage   
+
+				var localImage = new Java.IO.File (localPath);
+				if (localImage.Exists ()) {
+					var teamBitmap = BitmapFactory.DecodeFile (localImage.AbsolutePath);
+					imageViewdownload.SetImageBitmap (teamBitmap);
+					teamBitmap.Dispose ();
+				}
+					
+				return 0; 
+			}
+
 
 			async void LoadProductImage (ImageView imageView, string ImageURL)
 			{

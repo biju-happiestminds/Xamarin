@@ -20,7 +20,7 @@ namespace Training.shared.Core.Domain.Services
 		// get all productlist
 		public Product getproductlist()
 		{
-			string base_url= "http://10.20.26.149/Xamarin/get_products.php";
+			string base_url= "http://10.20.26.149/Xamarin/get_products.php";//"http://10.20.26.206/Xamarin/get_products.php"; 
 			var jsonreq =  CreateRequest (base_url);
 			string jsonresponse = ReadResponse (jsonreq);
 			productslist = Newtonsoft.Json.JsonConvert.DeserializeObject<Product>(jsonresponse);
