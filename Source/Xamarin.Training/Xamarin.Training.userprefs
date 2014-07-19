@@ -1,14 +1,13 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.avd_icecream" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Training.shared\Core\Domain.Services\ProductService.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Xamarin.Training.Droid\Adapter\ProductListAdapter.cs">
     <Files>
-      <File FileName="Xamarin.Training.Droid\ProductListByScanActivity.cs" Line="39" Column="51" />
-      <File FileName="Training.shared\Core\Domain.Services\ProductService.cs" Line="97" Column="59" />
-      <File FileName="Xamarin.Training.Droid\ProductListActivity.cs" Line="35" Column="4" />
-      <File FileName="Training.shared\Core\Domain.Services.Interfaces\IProductService.cs" Line="13" Column="2" />
-      <File FileName="Training.shared\Core\Domain\Models\Product.cs" Line="17" Column="3" />
-      <File FileName="Xamarin.Training.Droid\Adapter\ProductListAdapter.cs" Line="87" Column="46" />
-      <File FileName="Xamarin.Training.Droid\Helpers\Images.cs" Line="33" Column="43" />
+      <File FileName="Xamarin.Training.Droid\ProductListByScanActivity.cs" Line="1" Column="1" />
+      <File FileName="Training.shared\Core\Domain.Services\ProductService.cs" Line="10" Column="36" />
+      <File FileName="Xamarin.Training.Droid\ProductListActivity.cs" Line="1" Column="1" />
+      <File FileName="Training.shared\Core\Domain.Services.Interfaces\IProductService.cs" Line="10" Column="35" />
+      <File FileName="Training.shared\Core\Domain\Models\Product.cs" Line="32" Column="8" />
+      <File FileName="Xamarin.Training.Droid\Adapter\ProductListAdapter.cs" Line="117" Column="28" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

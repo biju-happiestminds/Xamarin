@@ -76,7 +76,7 @@ namespace Xamarin.Training.Droid.Adapters
 				imageView = view.FindViewById<ImageView> (Resource.Id.imgvProduct);
 			}
 
-			public void Bind(Activity myContext, Productlist item)
+			public async void Bind(Activity myContext, Productlist item)
 			{
 
 				context = myContext;
@@ -85,7 +85,7 @@ namespace Xamarin.Training.Droid.Adapters
 				qty.Text = item.Stock.ToString();
 				price.Text = item.Price.ToString();
 
-				Task<int> sizeTask = DownloadHomepageAsync(item.Image,imageView);
+				 Task<int> sizeTask = DownloadHomepageAsync(item.Image,imageView);
 
 				//imageView.SetImageResource (Resource.Drawable.Icon);
 				// LoadProductImage (imageView, ImageURL);
@@ -110,16 +110,6 @@ namespace Xamarin.Training.Droid.Adapters
 				}
 					
 				return 0; 
-			}
-
-
-			async void LoadProductImage (ImageView imageView, string ImageURL)
-			{
-				//var currentId = mainView.Id;
-				//progressView.Visibility = ViewStates.Visible;
-				//imageView.SetImageResource (Android.Resource.Color.Transparent);
-				await Images.SetImageFromUrlAsync (imageView,ImageURL);
-				//progressView.Visibility = ViewStates.Invisible;
 			}
 				
 		}
