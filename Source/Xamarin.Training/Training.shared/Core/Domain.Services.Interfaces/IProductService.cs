@@ -9,5 +9,6 @@ namespace Training.shared.Core.Domain.Services.Interfaces
 		Product getproductlist ();
         List<Productlist> GetProductslistById(int prodId);
 	}
+
 }
 

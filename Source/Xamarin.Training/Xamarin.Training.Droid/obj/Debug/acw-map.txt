@@ -6,6 +6,7 @@ Xamarin.Training.Droid.Adapters.ProductListAdapter;xamarin.training.droid.adapte
 Xamarin.Training.Droid.Adapters.ProductListAdapter.ViewHolder;xamarin.training.droid.adapters.ProductListAdapter_ViewHolder
 Xamarin.Training.Droid.RegistryListAdapter;xamarin.training.droid.RegistryListAdapter
 Xamarin.Training.Droid.RegistryManagementActivity;xamarin.training.droid.RegistryManagementActivity
+Xamarin.Training.Droid.GestureListener;xamarin.training.droid.GestureListener
 Android.Support.V4.Content.Loader.IOnLoadCompleteListenerImplementor;mono.android.support.v4.content.Loader_OnLoadCompleteListenerImplementor
 Android.Support.V4.View.ViewPager.IOnPageChangeListenerImplementor;mono.android.support.v4.view.ViewPager_OnPageChangeListenerImplementor
 Android.Support.V4.Widget.DrawerLayout.IDrawerListenerImplementor;mono.android.support.v4.widget.DrawerLayout_DrawerListenerImplementor

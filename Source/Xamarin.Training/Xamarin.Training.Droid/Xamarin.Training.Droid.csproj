@@ -68,6 +68,7 @@
     <Compile Include="Adapter\RegistryListAdapter.cs" />
     <Compile Include="RegistryManagementActivity.cs" />
     <Compile Include="Helpers\Images.cs" />
+    <Compile Include="GestureListener.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
