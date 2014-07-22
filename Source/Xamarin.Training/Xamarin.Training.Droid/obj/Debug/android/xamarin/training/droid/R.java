@@ -11,31 +11,34 @@ public final class R {
     public static final class attr {
     }
     public static final class drawable {
-        public static final int icon=0x7f020000;
-        public static final int linlayoutborder=0x7f020001;
-        public static final int monoandroidsplash=0x7f020002;
+        public static final int ic_action_cart_product=0x7f020000;
+        public static final int icon=0x7f020001;
+        public static final int linlayoutborder=0x7f020002;
+        public static final int monoandroidsplash=0x7f020003;
     }
     public static final class id {
-        public static final int addToWishlist=0x7f06000f;
+        public static final int addToWishlist=0x7f060011;
         public static final int btnRegMgmt=0x7f060003;
-        public static final int button1=0x7f06000d;
-        public static final int buttonZxingFlash=0x7f060016;
-        public static final int contentFrame=0x7f060017;
+        public static final int button1=0x7f06000f;
+        public static final int buttonZxingFlash=0x7f060018;
+        public static final int contentFrame=0x7f060019;
         public static final int imgDollar=0x7f06000b;
+        public static final int imgvProdadd=0x7f06000d;
         public static final int imgvProduct=0x7f060008;
-        public static final int linearLayout1=0x7f060011;
-        public static final int linearLayout2=0x7f060014;
+        public static final int linearLayout1=0x7f060013;
+        public static final int linearLayout2=0x7f060016;
         public static final int lvProdList=0x7f060007;
         public static final int myButton=0x7f060004;
         public static final int myTxt=0x7f060000;
-        public static final int productList=0x7f060010;
-        public static final int productName=0x7f06000e;
+        public static final int productList=0x7f060012;
+        public static final int productName=0x7f060010;
         public static final int scanBtn=0x7f060002;
         public static final int searchBtn=0x7f060001;
-        public static final int textView1=0x7f060012;
-        public static final int textView2=0x7f060013;
-        public static final int textView3=0x7f060015;
+        public static final int textView1=0x7f060014;
+        public static final int textView2=0x7f060015;
+        public static final int textView3=0x7f060017;
         public static final int tr=0x7f060005;
+        public static final int txtAddToCart=0x7f06000e;
         public static final int txtProdName=0x7f060009;
         public static final int txtProdPrice=0x7f06000c;
         public static final int txtProdQty=0x7f06000a;

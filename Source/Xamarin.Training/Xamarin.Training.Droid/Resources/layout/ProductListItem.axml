@@ -48,4 +48,20 @@
         android:layout_below="@+id/txtProdQty"
         android:layout_marginTop="3dp"
         android:layout_marginLeft="70dp" />
+    <ImageView
+        android:src="@drawable/ic_action_cart_product"
+        android:layout_width="33.7dp"
+        android:layout_height="35.9dp"
+        android:id="@+id/imgvProdadd"
+        android:layout_marginTop="3dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp" />
+    <TextView
+        android:id="@+id/txtAddToCart"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:textColor="#014472"
+        android:text="Add to Cart"
+        android:layout_below="@+id/imgvProdadd"
+        android:layout_alignParentRight="true" />
 </RelativeLayout>
