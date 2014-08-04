@@ -50,12 +50,13 @@
         android:layout_marginLeft="70dp" />
     <ImageView
         android:src="@drawable/ic_action_cart_product"
-        android:layout_width="33.7dp"
-        android:layout_height="35.9dp"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
         android:id="@+id/imgvProdadd"
         android:layout_marginTop="3dp"
         android:layout_alignParentRight="true"
-        android:layout_marginRight="20dp" />
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="1dp" />
     <TextView
         android:id="@+id/txtAddToCart"
         android:layout_width="75dp"

@@ -72,50 +72,95 @@ namespace Xamarin.Training.Droid
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f060011
-			public const int addToWishlist = 2131099665;
+			// aapt resource value: 0x7f060027
+			public const int addToWishlist = 2131099687;
 			
 			// aapt resource value: 0x7f060003
 			public const int btnRegMgmt = 2131099651;
 			
-			// aapt resource value: 0x7f06000f
-			public const int button1 = 2131099663;
+			// aapt resource value: 0x7f060014
+			public const int button1 = 2131099668;
 			
-			// aapt resource value: 0x7f060018
-			public const int buttonZxingFlash = 2131099672;
+			// aapt resource value: 0x7f060025
+			public const int buttonCreateAccount = 2131099685;
 			
-			// aapt resource value: 0x7f060019
-			public const int contentFrame = 2131099673;
+			// aapt resource value: 0x7f06002e
+			public const int buttonZxingFlash = 2131099694;
 			
-			// aapt resource value: 0x7f06000b
-			public const int imgDollar = 2131099659;
+			// aapt resource value: 0x7f06002f
+			public const int contentFrame = 2131099695;
+			
+			// aapt resource value: 0x7f060024
+			public const int editTextConfirmPassword = 2131099684;
+			
+			// aapt resource value: 0x7f06001e
+			public const int editTextEmail = 2131099678;
+			
+			// aapt resource value: 0x7f06001a
+			public const int editTextFirstName = 2131099674;
+			
+			// aapt resource value: 0x7f06001c
+			public const int editTextLastName = 2131099676;
+			
+			// aapt resource value: 0x7f060021
+			public const int editTextPassword = 2131099681;
+			
+			// aapt resource value: 0x7f060010
+			public const int imgDollar = 2131099664;
+			
+			// aapt resource value: 0x7f060012
+			public const int imgvProdadd = 2131099666;
 			
 			// aapt resource value: 0x7f06000d
-			public const int imgvProdadd = 2131099661;
+			public const int imgvProduct = 2131099661;
+			
+			// aapt resource value: 0x7f06001f
+			public const int line_email = 2131099679;
+			
+			// aapt resource value: 0x7f06001b
+			public const int line_fName = 2131099675;
+			
+			// aapt resource value: 0x7f060017
+			public const int line_head = 2131099671;
+			
+			// aapt resource value: 0x7f06001d
+			public const int line_lName = 2131099677;
+			
+			// aapt resource value: 0x7f060023
+			public const int line_password = 2131099683;
+			
+			// aapt resource value: 0x7f060029
+			public const int linearLayout1 = 2131099689;
+			
+			// aapt resource value: 0x7f06002c
+			public const int linearLayout2 = 2131099692;
 			
 			// aapt resource value: 0x7f060008
-			public const int imgvProduct = 2131099656;
+			public const int login = 2131099656;
 			
-			// aapt resource value: 0x7f060013
-			public const int linearLayout1 = 2131099667;
+			// aapt resource value: 0x7f06000c
+			public const int lvProdList = 2131099660;
 			
-			// aapt resource value: 0x7f060016
-			public const int linearLayout2 = 2131099670;
-			
-			// aapt resource value: 0x7f060007
-			public const int lvProdList = 2131099655;
-			
-			// aapt resource value: 0x7f060004
-			public const int myButton = 2131099652;
+			// aapt resource value: 0x7f060009
+			public const int myButton = 2131099657;
 			
 			// aapt resource value: 0x7f060000
 			public const int myTxt = 2131099648;
 			
-			// aapt resource value: 0x7f060012
-			public const int productList = 2131099666;
+			// aapt resource value: 0x7f060028
+			public const int productList = 2131099688;
 			
-			// aapt resource value: 0x7f060010
-			public const int productName = 2131099664;
+			// aapt resource value: 0x7f060026
+			public const int productName = 2131099686;
+			
+			// aapt resource value: 0x7f060007
+			public const int register = 2131099655;
+			
+			// aapt resource value: 0x7f060019
+			public const int rl_formfields = 2131099673;
+			
+			// aapt resource value: 0x7f060015
+			public const int rl_header_profile_img = 2131099669;
 			
 			// aapt resource value: 0x7f060002
 			public const int scanBtn = 2131099650;
@@ -123,32 +168,53 @@ namespace Xamarin.Training.Droid
 			// aapt resource value: 0x7f060001
 			public const int searchBtn = 2131099649;
 			
-			// aapt resource value: 0x7f060014
-			public const int textView1 = 2131099668;
-			
-			// aapt resource value: 0x7f060015
-			public const int textView2 = 2131099669;
-			
-			// aapt resource value: 0x7f060017
-			public const int textView3 = 2131099671;
-			
-			// aapt resource value: 0x7f060005
-			public const int tr = 2131099653;
-			
-			// aapt resource value: 0x7f06000e
-			public const int txtAddToCart = 2131099662;
-			
-			// aapt resource value: 0x7f060009
-			public const int txtProdName = 2131099657;
-			
-			// aapt resource value: 0x7f06000c
-			public const int txtProdPrice = 2131099660;
-			
-			// aapt resource value: 0x7f06000a
-			public const int txtProdQty = 2131099658;
+			// aapt resource value: 0x7f060018
+			public const int sv_register_form = 2131099672;
 			
 			// aapt resource value: 0x7f060006
-			public const int txtProdSearch = 2131099654;
+			public const int textLogin = 2131099654;
+			
+			// aapt resource value: 0x7f060005
+			public const int textPassword = 2131099653;
+			
+			// aapt resource value: 0x7f060004
+			public const int textUsername = 2131099652;
+			
+			// aapt resource value: 0x7f06002a
+			public const int textView1 = 2131099690;
+			
+			// aapt resource value: 0x7f06002b
+			public const int textView2 = 2131099691;
+			
+			// aapt resource value: 0x7f06002d
+			public const int textView3 = 2131099693;
+			
+			// aapt resource value: 0x7f06000a
+			public const int tr = 2131099658;
+			
+			// aapt resource value: 0x7f060020
+			public const int tv_pwd_hint = 2131099680;
+			
+			// aapt resource value: 0x7f060022
+			public const int tv_pwd_strength = 2131099682;
+			
+			// aapt resource value: 0x7f060016
+			public const int tv_registernewuser = 2131099670;
+			
+			// aapt resource value: 0x7f060013
+			public const int txtAddToCart = 2131099667;
+			
+			// aapt resource value: 0x7f06000e
+			public const int txtProdName = 2131099662;
+			
+			// aapt resource value: 0x7f060011
+			public const int txtProdPrice = 2131099665;
+			
+			// aapt resource value: 0x7f06000f
+			public const int txtProdQty = 2131099663;
+			
+			// aapt resource value: 0x7f06000b
+			public const int txtProdSearch = 2131099659;
 			
 			static Id()
 			{
@@ -167,31 +233,37 @@ namespace Xamarin.Training.Droid
 			public const int Home = 2130903040;
 			
 			// aapt resource value: 0x7f030001
-			public const int Main = 2130903041;
+			public const int Login = 2130903041;
 			
 			// aapt resource value: 0x7f030002
-			public const int ProductList = 2130903042;
+			public const int Main = 2130903042;
 			
 			// aapt resource value: 0x7f030003
-			public const int ProductListItem = 2130903043;
+			public const int ProductList = 2130903043;
 			
 			// aapt resource value: 0x7f030004
-			public const int ProductListScan = 2130903044;
+			public const int ProductListItem = 2130903044;
 			
 			// aapt resource value: 0x7f030005
-			public const int RegistryListItemLayout = 2130903045;
+			public const int ProductListScan = 2130903045;
 			
 			// aapt resource value: 0x7f030006
-			public const int RegistryManagement = 2130903046;
+			public const int Registration = 2130903046;
 			
 			// aapt resource value: 0x7f030007
-			public const int ZxingOverlay = 2130903047;
+			public const int RegistryListItemLayout = 2130903047;
 			
 			// aapt resource value: 0x7f030008
-			public const int zxingscanneractivitylayout = 2130903048;
+			public const int RegistryManagement = 2130903048;
 			
 			// aapt resource value: 0x7f030009
-			public const int zxingscannerfragmentlayout = 2130903049;
+			public const int ZxingOverlay = 2130903049;
+			
+			// aapt resource value: 0x7f03000a
+			public const int zxingscanneractivitylayout = 2130903050;
+			
+			// aapt resource value: 0x7f03000b
+			public const int zxingscannerfragmentlayout = 2130903051;
 			
 			static Layout()
 			{
@@ -217,6 +289,9 @@ namespace Xamarin.Training.Droid
 			
 			// aapt resource value: 0x7f040000
 			public const int hello = 2130968576;
+			
+			// aapt resource value: 0x7f040006
+			public const int login_button = 2130968582;
 			
 			// aapt resource value: 0x7f040005
 			public const int no = 2130968581;

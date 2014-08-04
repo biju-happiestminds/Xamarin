@@ -63,6 +63,7 @@ D:\Xamarin_Git\Source\Xamarin.Training\Xamarin.Training.Droid\obj\Debug\res\layo
 D:\Xamarin_Git\Source\Xamarin.Training\Xamarin.Training.Droid\obj\Debug\res\layout\registrylistitemlayout.xml
 D:\Xamarin_Git\Source\Xamarin.Training\Xamarin.Training.Droid\obj\Debug\R.cs.flag
 D:\Xamarin_Git\Source\Xamarin.Training\Xamarin.Training.Droid\obj\Debug\uploadflags.txt
+E:\TRU\Xamarin\Source\Xamarin.Training\Xamarin.Training.Droid\obj\Debug\Xamarin.Training.Droid.csprojResolveAssemblyReference.cache
 E:\TRU\Xamarin\Source\Xamarin.Training\Xamarin.Training.Droid\bin\Debug\Xamarin.Training.Droid.dll
 E:\TRU\Xamarin\Source\Xamarin.Training\Xamarin.Training.Droid\bin\Debug\Xamarin.Training.Droid.pdb
 E:\TRU\Xamarin\Source\Xamarin.Training\Xamarin.Training.Droid\bin\Debug\Xamarin.Training.Droid.dll.mdb
@@ -89,6 +90,7 @@ E:\TRU\Xamarin\Source\Xamarin.Training\Xamarin.Training.Droid\obj\Debug\res\draw
 E:\TRU\Xamarin\Source\Xamarin.Training\Xamarin.Training.Droid\obj\Debug\res\layout\registrymanagement.xml
 E:\TRU\Xamarin\Source\Xamarin.Training\Xamarin.Training.Droid\obj\Debug\res\layout\registrylistitemlayout.xml
 E:\TRU\Xamarin\Source\Xamarin.Training\Xamarin.Training.Droid\obj\Debug\res\drawable\ic_action_cart_product.png
+E:\TRU\Xamarin\Source\Xamarin.Training\Xamarin.Training.Droid\obj\Debug\res\layout\registration.xml
+E:\TRU\Xamarin\Source\Xamarin.Training\Xamarin.Training.Droid\obj\Debug\res\layout\login.xml
 E:\TRU\Xamarin\Source\Xamarin.Training\Xamarin.Training.Droid\obj\Debug\R.cs.flag
 E:\TRU\Xamarin\Source\Xamarin.Training\Xamarin.Training.Droid\obj\Debug\uploadflags.txt
-E:\TRU\Xamarin\Source\Xamarin.Training\Xamarin.Training.Droid\obj\Debug\Xamarin.Training.Droid.csprojResolveAssemblyReference.cache

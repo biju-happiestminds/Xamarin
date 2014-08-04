@@ -23,8 +23,18 @@ namespace Xamarin.Training.Droid
 
 			// Get our button from the layout resource,
 			// and attach an event to it
+		
+
+			Button login = FindViewById<Button> (Resource.Id.login);
+			login.Click += delegate {
+				var LoginActivity = new Intent(this, typeof(LoginActivity));
+				StartActivity(LoginActivity);
+
+				//Toast.MakeText(this, "Navigated to Home Screen", ToastLength.Short).Show(); 
+			};
+
+
 			Button button = FindViewById<Button> (Resource.Id.myButton);
-			
 			button.Click += delegate {
 				var homeActivity = new Intent(this, typeof(HomeActivity));
 				StartActivity(homeActivity);

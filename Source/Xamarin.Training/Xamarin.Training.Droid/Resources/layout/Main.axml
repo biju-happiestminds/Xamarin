@@ -11,6 +11,13 @@
         android:text="@string/hello"
         android:textColor="#ffffff" />
     <Button
+        android:id="@+id/login"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login_button"
+        android:layout_marginBottom="80dp"
+        android:layout_alignParentBottom="true" />
+    <Button
         android:id="@+id/myButton"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"

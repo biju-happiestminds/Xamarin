@@ -17,11 +17,12 @@ namespace Training.shared.Core.Domain.Services
 {
 	public class ProductService : IProductService
 	{
-		Product products = new Product();
+		//Product products = new Product();
 
 		// get all productlist
 		public Product getproductlist()
 		{
+			var products = new Product();
 			string base_url= "http://10.20.26.149/Xamarin/productlistClient.php";//"http://10.20.26.206/Xamarin/get_products.php"; 
 			var request =  CreateRequest (base_url);
 			string response = ReadResponse (request);

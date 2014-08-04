@@ -16,10 +16,17 @@ namespace Training.shared
 			get{
 				var prodservc = new ProductService();
 				return prodservc;
-
-
 				}
 		}
+		public static IUserService UserService
+		{
+			get{
+				var userservc = new UserService ();
+				return userservc;
+			}
+		}
+
 	}
+
 }
 

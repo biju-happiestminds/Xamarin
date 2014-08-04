@@ -1,20 +1,19 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.MonoForAndroid_API_10" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Training.shared\Core\Domain.Services\ProductService.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.4df14336681c6f55" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="e:\TRU\Xamarin\Source\Xamarin.Training\Training.shared\ServiceWrapper.cs">
     <Files>
-      <File FileName="Xamarin.Training.Droid\ProductListByScanActivity.cs" Line="1" Column="1" />
-      <File FileName="Training.shared\Core\Domain.Services\ProductService.cs" Line="2" Column="2" />
-      <File FileName="Xamarin.Training.Droid\ProductListActivity.cs" Line="1" Column="1" />
+      <File FileName="Training.shared\Core\Domain\Models\User.cs" Line="3" Column="3" />
+      <File FileName="Training.shared\Core\Domain.Services\UserService.cs" Line="24" Column="24" />
+      <File FileName="Training.shared\Core\Domain.Services\ProductService.cs" Line="73" Column="73" />
+      <File FileName="Xamarin.Training.Droid\ProductListActivity.cs" Line="63" Column="63" />
+      <File FileName="Xamarin.Training.Droid\LoginActivity.cs" Line="29" Column="29" />
+      <File FileName="e:\TRU\Xamarin\Source\Xamarin.Training\Training.shared\ServiceWrapper.cs" Line="33" Column="33" />
       <File FileName="Training.shared\Core\Domain.Services.Interfaces\IProductService.cs" Line="1" Column="1" />
-      <File FileName="Training.shared\Core\Domain\Models\Product.cs" Line="1" Column="1" />
-      <File FileName="Xamarin.Training.Droid\Adapter\ProductListAdapter.cs" Line="1" Column="1" />
+      <File FileName="Training.shared\Core\Domain.Services.Interfaces\IUserService.cs" Line="58" Column="58" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="E:\TRU\Xamarin\Source\Xamarin.Training\Training.shared\Core\Domain.Services\ProductService.cs" line="27" column="4" />
-      <Breakpoint file="E:\TRU\Xamarin\Source\Xamarin.Training\Training.shared\Core\Domain.Services\ProductService.cs" line="23" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches>
     <Watch file="Xamarin.Training.Droid\Helpers\Images.cs" line="55" offsetX="718" offsetY="864" expression="Training.shared.Core.Domain.Services.FileCache" liveUpdate="False" />

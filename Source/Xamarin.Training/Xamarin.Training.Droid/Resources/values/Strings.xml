@@ -6,4 +6,6 @@
 	<string name="dialog_title">Are you sure Want to Exit?</string>
 	<string name="yes">Yes</string>
   	<string name="no">No</string>
+  	<string name="login_button">LOGIN</string>
+
 </resources>

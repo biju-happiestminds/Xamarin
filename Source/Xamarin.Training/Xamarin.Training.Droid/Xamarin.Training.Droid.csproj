@@ -69,6 +69,8 @@
     <Compile Include="RegistryManagementActivity.cs" />
     <Compile Include="Helpers\Images.cs" />
     <Compile Include="GestureListener.cs" />
+    <Compile Include="LoginActivity.cs" />
+    <Compile Include="RegistrationActivity.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -90,6 +92,8 @@
     <AndroidResource Include="Resources\layout\RegistryManagement.axml" />
     <AndroidResource Include="Resources\layout\RegistryListItemLayout.axml" />
     <AndroidResource Include="Resources\drawable\ic_action_cart_product.png" />
+    <AndroidResource Include="Resources\layout\Registration.axml" />
+    <AndroidResource Include="Resources\layout\Login.axml" />
   </ItemGroup>
   <Import Project="..\Training.shared\Training.shared.projitems" Label="Shared" Condition="Exists('..\Training.shared\Training.shared.projitems')" />
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />

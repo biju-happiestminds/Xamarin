@@ -97,8 +97,8 @@ namespace Xamarin.Training.Droid
 
 		public  override void OnBackPressed ()
 		{
-			//base.OnBackPressed ();
-			onBackLogout ();
+			base.OnBackPressed ();
+			//onBackLogout ();
 		}
 
 		void onBackLogout()

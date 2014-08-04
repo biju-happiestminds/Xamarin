@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ab="http://schemas.android.com/apk/res/inStoreApp.Android.UI"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    android:background="#f2f1f3">
+    <RelativeLayout
+        android:id="@+id/rl_header_profile_img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_registernewuser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Register here"
+            android:textColor="#33b5e5"
+            android:textSize="21sp"
+            android:textStyle="bold" />
+        <View
+            android:id="@+id/line_head"
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:layout_below="@id/tv_registernewuser"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="2dp"
+            android:background="#33b5e5" />
+    </RelativeLayout>
+    <ScrollView
+        android:id="@+id/sv_register_form"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rl_header_profile_img">
+        <RelativeLayout
+            android:id="@+id/rl_formfields"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/editTextFirstName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:ems="14"
+                android:hint="First Name"
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+                android:textColor="#000000" />
+            <View
+                android:id="@+id/line_fName"
+                android:layout_width="wrap_content"
+                android:layout_height="2dp"
+                android:layout_below="@id/editTextFirstName"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp" />
+            <EditText
+                android:id="@+id/editTextLastName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_below="@id/line_fName"
+                android:ems="14"
+                android:hint="Last Name"
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+                android:textColor="#000000" />
+            <View
+                android:id="@+id/line_lName"
+                android:layout_width="wrap_content"
+                android:layout_height="2dp"
+                android:layout_below="@id/editTextLastName"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp" />
+            <EditText
+                android:id="@+id/editTextEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_below="@id/line_lName"
+                android:ems="14"
+                android:hint="Email"
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+                android:textColor="#000000" />
+            <View
+                android:id="@+id/line_email"
+                android:layout_width="wrap_content"
+                android:layout_height="2dp"
+                android:layout_below="@id/editTextEmail"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp" />
+            <TextView
+                android:id="@+id/tv_pwd_hint"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/line_email"
+                android:layout_marginTop="4dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="4dp"
+                android:text="Password length should be minimum 8 and maximum 16 characters. Password should be alphanumeric"
+                android:textColor="#FB0606"
+                android:textSize="12sp" />
+            <EditText
+                android:id="@+id/editTextPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_pwd_hint"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:ems="14"
+                android:hint="Password"
+                android:imeOptions="actionNext"
+                android:inputType="textPassword"
+                android:singleLine="true"
+                android:textColor="#000000" />
+            <TextView
+                android:id="@+id/tv_pwd_strength"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/editTextPassword"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="4dp"
+                android:text="Password Strength : LOW"
+                android:textColor="#FB0606"
+                android:textSize="12sp"
+                android:visibility="gone" />
+            <View
+                android:id="@+id/line_password"
+                android:layout_width="wrap_content"
+                android:layout_height="2dp"
+                android:layout_below="@id/editTextPassword"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp" />
+            <EditText
+                android:id="@+id/editTextConfirmPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/line_password"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:ems="14"
+                android:hint="Retype Password"
+                android:imeOptions="actionDone"
+                android:inputType="textPassword"
+                android:singleLine="true"
+                android:textColor="#000000" />
+            <Button
+                android:id="@+id/buttonCreateAccount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/editTextConfirmPassword"
+                android:layout_marginBottom="25dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="16dp"
+                android:text="Register"
+                android:textColor="#FFFFFF" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
